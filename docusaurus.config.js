@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://docusaurus-2.netlify.app',
+  url: 'https://dewy_search.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,18 +64,11 @@ const config = {
         apiKey: '2752ae80c38321cbb39b53f13fa3d398',
   
         indexName: 'dew_search_test',
+
+        placeholder: 'EIEI',
   
         // Optional: see doc section below
         contextualSearch: true,
-  
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'external\\.com|domain\\.com',
-  
-        // Optional: Algolia search parameters
-        searchParameters: {},
-  
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
   
         //... other Algolia params
       },
