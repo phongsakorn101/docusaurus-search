@@ -1,7 +1,10 @@
 {
     "index_name": "test_new_index",
+    "start_urls": [
+      "https://phongsakorn101.github.io/"
+    ],
     "sitemap_urls": [
-      "http://localhost:3001/sitemap.xml"
+      "https://phongsakorn101.github.io/sitemap.xml"
     ],
     "sitemap_alternate_links": true,
     "stop_urls": [
